@@ -5,6 +5,8 @@ To design and implement a LangChain Expression Language (LCEL) expression that u
 
 ### PROBLEM STATEMENT:
 
+Design and integrate a Python function that calculates the volume of a cylinder, and enable the function to be called through a chat completion system, simulating an LLM interface.
+
 ### DESIGN STEPS:
 ### STEP 1: Setup API and Environment: Load environment variables using dotenv and set openai.api_key from the local environment.
 ### STEP 2: Create Prompt and Model: Use LangChain to define a ChatPromptTemplate and initialize ChatOpenAI for text generation.
